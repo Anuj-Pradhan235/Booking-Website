@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/466cd139a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="heading">
+        <h4>
+          <img
+            src="Bookingcom.png"
+            width="240px"
+            height="100px"
+            alt="image not found!"
+          />
+        </h4>
+      </div>
+
+      <ul class="nav-links">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="body-text">
+      <marquee
+        width="100%"
+        direction="up"
+        height="100px"
+        style="color: white; background: black"
+      >
+        <h1 style="color: red">Alert!</h1>
+        <h2>
+          Get your favourite food at your train seat through e-Catering
+          available at selected stations. COVID 19 Alert:<br />
+          1.All passengers are advised to wear face covers/masks at the
+          entry/exit and during travel.<br />
+          2.All passengers are advised that on arrival at their destination, the
+          travelling passenger shall follow the Covid protocol/guidelines issued
+          by Ministry of Home affairs, Ministry of Health and Family Welfare and
+          concerned State/UTs on the subject from time to time.
+          <br />
+          <a href="#">Information on Covid 19 Vaccination Programme</a>
+        </h2>
+        <h1>Have a Safe and Happy Journey!</h1>
+      </marquee>
+    </div>
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="life1.jpg"
+              width="500px"
+              height="500px"
+              alt="image not found!"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="2.png"
+              width="500px"
+              height="500px"
+              alt="image not found!"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="3.jpg"
+              width="500px"
+              height="500px"
+              alt="image not found!"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="5.jpg"
+              width="500px"
+              height="500px"
+              alt="image not found!"
+            />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+      });
+    </script>
+    <div class="container1">
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-plane" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Plane</h3>
+          <p>
+            AdBook cheap flights online with tripodeal.com and save on flight
+            bookings. Book now and Save Rs900 with coupon code on TripOdeal.com.
+            tripodeal.com has been visited by 10K+ users in the past month
+            Discounted Flights · 24x7 Customer Support · Easy Booking Process ·
+            No Hidden Charges Destinations: Delhi, Bombay, Goa, Hyderabad,
+            Jammu, Bangkok, Dubai
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-hotel" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Hotel</h3>
+          <p>
+            AdBook in 85,000 destinations across the world. Booking.com's
+            official site. Travel inspired by some of Eurovisions most iconic
+            pop anthems. You have visited booking.com once in last 7 days.
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-train" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Train</h3>
+          <p>
+            Booking.com or Indian Railway train tickets online quickly and
+            easily on ixigo’s train mobile app or website using your IRCTC user
+            ID and login. You will be paying ₹0 payment gateway fee on train
+            booking and reservation via UPI. We offer online IRCTC Tatkal ticket
+            booking service on our mobile app and website. You can also book
+            special trains online on our mobile app. Once you have booked your
+            ticket online, check your PNR status and know the chances of your
+            ticket confirmation. Confirm your train's live running status (or
+            use ixigo’s where is my train feature).
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-bus" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Train</h3>
+          <p>
+            Bus tickets online quickly and easily on ixigo’s train mobile app or
+            website using your IRCTC user ID and login. You will be paying ₹0
+            payment gateway fee on bus booking and reservation via UPI. We offer
+            online Tatkal ticket booking service on our mobile app and website.
+            You can also book special bus online on our mobile app. Once you
+            have booked your ticket online, check your PNR status and know the
+            chances of your ticket confirmation. Confirm your bus's live running
+            status (or use ixigo’s where is my bus feature).
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-taxi" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Cab</h3>
+          <p>
+            ID and login. You will be paying ₹0 payment gateway fee on cab
+            booking and reservation via UPI. We offer online booking service on
+            our mobile app and website. You can also book special cab online on
+            our mobile app. Once you have booked your cab online, check your PNR
+            status and know the chances of your ticket confirmation. Confirm
+            your cab's live running status (or use ixigo’s where is my cab
+            feature).
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fa fa-motorcycle" aria-hidden="true"></i>
+        </div>
+        <div class="content">
+          <h3>Motor Cycle</h3>
+          <p>
+            ID and login. You will be paying ₹0 payment gateway fee on bike
+            booking and reservation via UPI. We offer online booking service on
+            our mobile app and website. You can also book special cab online on
+            our mobile app. Once you have booked your cab online, check your PNR
+            status and know the chances of your ticket confirmation. Confirm
+            your cab's live running status (or use ixigo’s where is my bike
+            feature).
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <marquee behavior="" direction="right"
+        ><h3 style="text-decoration: underline">
+          Wearing a mask is the best way to show our true selves!
+        </h3></marquee
+      >
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="Bookingcom.png" alt="image not foune!" class="logo" / >
+          <p>
+            Subscribe Booking.com website to see more offers on travelling
+            tikects and Press the bell icon to get immediate notification of
+            latest offers.
+          </p>
+        </div>
+        <div class="col">
+          <h3>
+            Office
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Daftary Road</p>
+          <p>Pusha park, Malad(E)</p>
+          <p>Mumbai, PIN 400 097, India</p>
+          <p class="email-id">pradhananuj235@gmail.com</p>
+          <h4>+91 - 9167882520</h4>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Contactus</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form action="">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder=" Enter your email id" />
+            <button type="submit">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+
+            <i class="fab fa-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Booking.com © 2021 - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
